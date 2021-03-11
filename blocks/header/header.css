@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 880px;
+    padding: 45px 0px 0px;
+}
+.header__logo {
+    align-self: flex-start;
+    max-width: 142px;
+}
+.header::after {
+    display: flex;
+    content: '';
+    margin: 41px 0px 0px;
+    border-top: solid #545454 1px;
+    width: 100%;
+}
