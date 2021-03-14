@@ -1,0 +1,13 @@
+.popup__container {
+    position: fixed;
+    margin:195px auto auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+@media all and (max-width: 880px) {
+    .popup__container {
+        margin:123px auto auto;
+    }
+}

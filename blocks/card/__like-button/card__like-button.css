@@ -1,0 +1,9 @@
+.card__like-button{
+    margin: 0px 22px 0px 0px;
+    min-width: 22px;
+    min-height: 19px;
+    background-image: url(../../../images/likeButton-disabled.svg);
+}
+.card__like-button:active {
+    background-image: url(../../../images/likeButton-active.svg);
+}

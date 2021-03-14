@@ -2,39 +2,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 282px);
     max-width: 880px;
-    margin: auto;
     gap: 20px 17px;
     padding: 50px 0px 0px;
+    justify-content: center;
+    margin: auto;
 }
-.card {
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: black;
-}
-.card__title {
-    margin: 0px;
-    padding: 25px 0px 31px 21px;
-    font-family: 'Inter';
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 1.2;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-.card__like-button{
-    margin: 0px 20px 0px 0px;
-}
-.card__image {
-    display: flex;
-    width: 100%;
-    max-width: 282px;
-    min-height: 282px;
-    object-fit: cover;
-}
-.card__cardbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+@media all and (max-width:880px) {
+    .cards {
+        padding: 36px 0px 0px;;
+    }
 }
