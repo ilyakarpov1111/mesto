@@ -1,0 +1,6 @@
+.card-popup {
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}

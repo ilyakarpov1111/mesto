@@ -5,6 +5,10 @@
     height: 50px;
     justify-self: right;
     grid-column-start: -1;
+    transition: opacity 0.2s;
+}
+.profile__add-button:hover {
+    opacity: 0.5;
 }
 @media all and (max-width: 880px) {
     .profile__add-button {

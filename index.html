@@ -27,72 +27,7 @@
                 </button>
             </section>
             <section class="cards">
-                <div class="card">
-                    <img class="card__image" alt="Карачаевск" src="images/card-random.jpg">
-                    <div class="card__cardbar">
-                        <p class="card__title">
-                            Рандомная карточка
-                        </p>
-                        <button class="button card__like-button">
-                            
-                        </button>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card__image" alt="Карачаевск" src="images/card-random.jpg">
-                    <div class="card__cardbar">
-                        <p class="card__title">
-                            Рандомная карточка
-                        </p>
-                        <button class="button card__like-button">
-                            
-                        </button>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card__image" alt="Карачаевск" src="images/card-random.jpg">
-                    <div class="card__cardbar">
-                        <p class="card__title">
-                            Рандомная карточка
-                        </p>
-                        <button class="button card__like-button">
-                            
-                        </button>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card__image" alt="Карачаевск" src="images/card-random.jpg">
-                    <div class="card__cardbar">
-                        <p class="card__title">
-                            Рандомная карточка
-                        </p>
-                        <button class="button card__like-button">
-                            
-                        </button>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card__image" alt="Карачаевск" src="images/card-random.jpg">
-                    <div class="card__cardbar">
-                        <p class="card__title">
-                            Рандомная карточка
-                        </p>
-                        <button class="button card__like-button">
-                            
-                        </button>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card__image" alt="Карачаевск" src="images/card-random.jpg">
-                    <div class="card__cardbar">
-                        <p class="card__title">
-                            Рандомная карточка
-                        </p>
-                        <button class="button card__like-button">
-                            
-                        </button>
-                    </div>
-                </div>
+               
             </section>
         </main>
         <footer class="footer">
@@ -100,23 +35,67 @@
                 2020 Mesto Russia
             </p>
         </footer>
-        <div class="popup">
+        <div class="popup profile-popup">
             <form class="popup__container">
                 <h2 class="popup__heading">
                     Редактировать профиль
                 </h2>
                 <fieldset class="popup__fieldset">
-                    <input type="text"class="input popup__input-name" placeholder="Имя пользователя">
-                    <input type="text"class="input popup__input-description" placeholder="О себе">
+                    <input type="text"class="popup__input popup__input-name" placeholder="Имя пользователя">
+                    <input type="text"class="popup__input popup__input-description" placeholder="О себе">
                 </fieldset>
                 <button type="submit" class="popup__submit-button button">
                     Сохранить
                 </button>
                 <button type="button" class="popup__close-button button">
-                    <img class="popup__close-button-image" src="images/попуга паровоз.gif">
+                    <img class="popup__close-button-image" src="images/close-button-ico.svg">
                 </button>
             </form>
         </div>
+        <div class="popup add-popup">
+            <form class="popup__container">
+                <h2 class="popup__heading">
+                    Новое место
+                </h2>
+                <fieldset class="popup__fieldset">
+                    <input type="text"class="popup__input popup__input-name" placeholder="Название">
+                    <input type="text"class="popup__input popup__input-link" placeholder="Ссылка на кртинку">
+                </fieldset>
+                <button type="submit" class="popup__submit-button button">
+                    Создать
+                </button>
+                <button type="button" class="popup__close-button button">
+                    <img class="popup__close-button-image" src="images/close-button-ico.svg" alt = 'закрыть'>
+                </button>
+            </form>
+        </div>
+        <div class="popup card-popup">
+            <div class="card-popup__container">
+                <img class="card-popup__image" src=" " alt=" ">
+                <p class="card-popup__title">
+
+                </p>
+                <button class="card-popup__close-button button">
+                    <img class="card-popup__close-button-image" src ="images/close-button-ico.svg" alt = 'закрыть'> 
+                </button>
+            </div>  
+        </div>
+        <template id='card'>
+            <div class="card">
+                <img class="card__image" alt=" " src=" ">
+                <div class="card__cardbar">
+                    <p class="card__title">
+                        
+                    </p>
+                    <button class="button card__like-button">
+                        
+                    </button>
+                </div>
+                <button class="button card__delete-button">
+
+                </button>
+            </div> 
+        </template>
     </div>
   <script src="./script.js"></script>  
 </body>

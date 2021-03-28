@@ -1,0 +1,9 @@
+.card-popup__title {
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: white;
+}

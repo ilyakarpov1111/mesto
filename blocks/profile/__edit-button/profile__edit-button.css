@@ -3,6 +3,10 @@
     background-color: transparent;
     border: none;
     margin: 6px 0px 0px 18px;
+    transition: opacity 0.2s;
+}
+.profile__edit-button:hover {
+    opacity: 0.5;
 }
 @media all and (max-width: 880px) {
     .profile__edit-button {

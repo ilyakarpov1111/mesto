@@ -1,0 +1,11 @@
+.card-popup__close-button {
+    top: -40px;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;    
+    transition: opacity 0.2s;
+}
+.card-popup__close-button:hover {
+    opacity: 0.5;
+}
