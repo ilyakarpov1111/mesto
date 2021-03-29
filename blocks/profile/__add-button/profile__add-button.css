@@ -5,7 +5,7 @@
     height: 50px;
     justify-self: right;
     grid-column-start: -1;
-    transition: opacity 0.2s;
+    transition: opacity 0.3s;
 }
 .profile__add-button:hover {
     opacity: 0.5;

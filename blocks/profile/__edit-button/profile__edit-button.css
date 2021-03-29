@@ -3,7 +3,7 @@
     background-color: transparent;
     border: none;
     margin: 6px 0px 0px 18px;
-    transition: opacity 0.2s;
+    transition: opacity 0.3s;
 }
 .profile__edit-button:hover {
     opacity: 0.5;
