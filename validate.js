@@ -65,3 +65,4 @@ function enableValidation() {
       });
 }
 enableValidation()
+console.log('test vetok');
